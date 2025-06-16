@@ -1,0 +1,107 @@
+✅ Foundational Problems (Build Recursion Thinking)
+Factorial / Fibonacci
+
+Simple base-case identification and recursion tracing.
+
+Power Function / Exponentiation
+
+Recursion with optimized approach (divide and conquer).
+
+Print All Subsequences of a String/Array
+
+Subset generation using include/exclude pattern.
+
+Sum of Subsets / Subset Sums
+
+Classic problem for recursion + decision trees.
+
+
+
+
+🔁 Backtracking Essentials
+Rat in a Maze
+
+2D movement with constraints (recursion + visited matrix).
+
+N-Queens Problem
+
+Place N queens safely; build intuition for row-by-row constraints.
+
+Sudoku Solver
+
+Recursive trial and error with early pruning.
+
+Word Search in Grid
+
+DFS + Backtracking to find word in 2D board.
+
+Generate Balanced Parentheses
+
+Maintain open/close counts; classic for Virtusa-style questions.
+
+Permutations / Combinations
+
+With and without duplicates (LC: Permutations I & II).
+
+
+
+
+
+🚀 Intermediate to Power Coder Level
+Palindrome Partitioning
+
+Partition string into all palindromic substrings (recursion + backtracking).
+
+Combination Sum I & II
+
+Return all combinations of numbers that sum to target.
+
+Letter Combinations of a Phone Number
+
+Mapping digits to letters (recursion tree traversal).
+
+Restore IP Addresses
+
+Try placing dots at valid positions (string + recursion).
+
+Knight’s Tour Problem / Hamiltonian Path
+
+Classic grid movement with deep recursion.
+
+🧠 Hard + Interview-Level (Optional for Virtusa, but great prep)
+Tiling Problem / Ways to Place Tiles
+
+Recursive state representation.
+
+Expression Add Operators
+
+Backtracking + string + expression evaluation.
+
+Maximum Unique Path with Backtracking
+
+DFS on grid with constraints.
+
+
+
+
+
+🎯 Practice These Specific Problems on Platforms:
+LeetCode
+Permutations (46)
+
+Subsets (78)
+
+Combination Sum (39, 40)
+
+Palindrome Partitioning (131)
+
+Generate Parentheses (22)
+
+Word Search (79)
+
+GeeksforGeeks
+Rat in a Maze
+
+N-Queen Problem
+
+Sudoku Solver
