@@ -1,0 +1,18 @@
+📌 1. Why Bit Manipulation?
+Bit manipulation uses bitwise operators to perform operations at the bit level, enabling:
+
+🔸 Constant-time operations (very fast)
+
+🔸 Space-efficient coding
+
+🔸 Solving problems related to sets, power-of-2, parity, etc
+
+
+| Operator    | Symbol | Meaning                           | Example (a=5, b=3) |     |         |
+| ----------- | ------ | --------------------------------- | ------------------ | --- | ------- |
+| AND         | `&`    | 1 if both bits are 1              | `5 & 3 = 1`        |     |         |
+| OR          | \`     | \`                                | 1 if any bit is 1  | \`5 | 3 = 7\` |
+| XOR         | `^`    | 1 if bits are different           | `5 ^ 3 = 6`        |     |         |
+| NOT         | `~`    | Flip all bits (1's comp.)         | `~5 = -6`          |     |         |
+| LEFT SHIFT  | `<<`   | Shift bits left (multiply by 2^n) | `5 << 1 = 10`      |     |         |
+| RIGHT SHIFT | `>>`   | Shift bits right (divide by 2^n)  | `5 >> 1 = 2`       |     |         |
