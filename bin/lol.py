@@ -1,6 +1,6 @@
 import requests
 
-ACCESS_TOKEN = "IGAANkkyx8GORBZAFA1U0EwQjdwOW90MjRKcnhNQmltc0lDcHhkb1NILWlZAQThPUUpxVjdjVXNQLXRram5vRjRjMWszVV9UbXFsYjR2ek53WldJZADdVNXlTeUVmUUY3UEpvakR4TldwclRYdUFnbkRRQVU2Y29xajVjcDV6cnFBZAwZDZD"
+ACCESS_TOKEN = ""
 MEDIA_ID = "18048534215482538"  # Replace with a valid media ID.
 
 url = f"https://graph.facebook.com/v17.0/{MEDIA_ID}/comments"
