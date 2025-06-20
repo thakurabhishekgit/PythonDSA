@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/webhook', methods=['GET'])
 def verify_webhook():
-    if request.args.get('hub.verify_token') == 'IGAANkkyx8GORBZAFA1U0EwQjdwOW90MjRKcnhNQmltc0lDcHhkb1NILWlZAQThPUUpxVjdjVXNQLXRram5vRjRjMWszVV9UbXFsYjR2ek53WldJZADdVNXlTeUVmUUY3UEpvakR4TldwclRYdUFnbkRRQVU2Y29xajVjcDV6cnFBZAwZDZD':
+    if request.args.get('hub.verify_token') == '':
         return request.args.get('hub.challenge'), 200
     return "Invalid token", 403
 
