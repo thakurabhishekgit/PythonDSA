@@ -113,6 +113,25 @@ def mul(root):
     else:
         return root.data*mul(root.left)+mul(root.right)
 
+def search (root,x):
+    if(root==None):
+        return "notFound"
+    if (root.data==x):
+        return "found"
+    elif (x<root.data):
+        return search(root.left,x)
+    else:
+        return search(root.right,x)
+    
+def insert(root,x):
+    if(root== None):
+        return Node(x)
+    if(x<root.data):
+        root.left = insert(root.left,x)
+    else:
+        root.right = insert(root.right,x)
+    return root
+    
 
 def add_even(root):
     if root==None:
